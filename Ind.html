@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  </head>
+  <body>
+   <font size="3" color="blue"><h1>Mr Light Madrasat Student Result submition Form</h1></font>
+
+<p>
+  This form is for the official submition of result that show you are a  bonafide students of 
+  <strong>Mr Light A-layuh Al-Qoyum Madrasat (MAA)</strong>. 
+  Kindly ensure that all required information is provided accurately.
+</p>
+
+    
+    <form method="post">
+      <fieldset>
+        <legend>Enter Student Information </legend>
+        <label for="name">Full Name</label>
+        <input required type="text" id="name" name="name" placeholder="Oladejo Abdul malik"><br>
+        <label for="number">Registration Number</label>
+        <input required type="number" id="number" name="number" placeholder="2345788389233672287"<br>
+        <label for="subject"> ExamSubject</label>
+        <select id="subject">
+          <option  value="hadith">Hadith recitation</option>
+            <option value="quran memorization">Quran Memorization</option>
+            <option value="lecture">Lecture </option
+        </select>
+        
+           <label>Score</label>
+            <input type="number" id="score" min="9" max="100">
+                <button type="submit">Add Result</button>
+  </fieldset>
+  <fieldset>
+    <legend>Do you like our exam settings</legend>
+     <input type="radio" id="yes" name="first-time"
+    <label for="yes">Yes</label>
+    
+    <input type="radio" id="no" name="first-time">
+    <label for="no">No</label>
+  </fieldset>
+  <fieldset>
+    <legend>Which exam format will you prefer for you upcoming exam</legend>
+    <input type="checkbox" id="cbt" name="cbt" value="cbt">
+    <label for="cbt">CBT</label>
+    <input type="checkbox" id="writing" name="writing" value="writing">
+    <label for="writing">Writing</label>
+        <input checked type="checkbox" id="oral" name="oral" value="oral">
+    <label for="oral">oral</label>
+  </fieldset>
+  <label for="comment">Comment on Few issues about your exam so we can try to amend</label>
+  <textarea id="comment" name="comment" rows="7" cols="50"></textarea>
+  <button type="submit">Submit Form</button>
+    </form>
+    
+    <table border="1">
+      <caption>Student Result</caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Registration</th>
+          <th>Subject</th>
+          <th>Score</th>
+          <th>Grade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Abdul Malik </td>
+          <td>2377557583939485</td>
+          <td>Quran Memorization</td>
+          <td>89</td>
+          <td>excellent</td>
+        </tr>
+        
+        <tr>
+              <td>Abdul Lateef </td>
+          <td>5377557583934485</td>
+          <td>Hadith Recitation</td>
+          <td>68</td>
+          <td>very-good</td>
+        </tr>
+        
+         <tr>
+              <td>Abdulahi </td>
+          <td>2347557002535835</td>
+          <td>lectures</td>
+          <td>98</td>
+          <td>Excellent</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th clospan="2">Total Result:3</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+  </head>
+</html>
